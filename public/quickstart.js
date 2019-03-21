@@ -8,7 +8,7 @@
   var device;
 
   log('Requesting Capability Token...');
-  $.getJSON('https://YOUR_FUNCTION_SUBDOMAIN_HERE.twil.io/capability-token')
+  $.getJSON('https://skobeloff-peafowl-6171.twil.io/capability-token')
     .then(function (data) {
       log('Got a token.');
       console.log('Token: ' + data.token);
